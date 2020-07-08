@@ -1,6 +1,6 @@
 {
   "name": "use-callback-await-state-sync",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Returns a callback that will not execute right away when called, but will instead execute next time all the state has been synchronised.",
   "main": "dist/lib/commonjs/index.js",
   "module": "dist/lib/esm/index.js",

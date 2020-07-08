@@ -35,10 +35,10 @@ export const MyComponent = () => {
         console.log(someStateThatMatters);
     });
 
-    React.useEffect() {
+    React.useEffect(() => {
         setSomeStateThatMatters('Hello world');
         myCallback();
-    }
+    }, [setSomeStateThatMatters, myCallback]);
 };
 
 ```
@@ -55,10 +55,10 @@ export const MyComponent = () => {
         console.log(someStateThatMatters);
     });
 
-    React.useEffect() {
+    React.useEffect(() => {
         setSomeStateThatMatters('Hello world');
         myCallback();
-    }
+    }, [setSomeStateThatMatters, myCallback]);
 };
 
 
