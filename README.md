@@ -8,13 +8,13 @@ This is useful to invoke when you make a series of state changes that you want t
 Install use-callback-await-state-sync locally within your project folder, like so:
 
 ```shell
-npm install @scottbamford/use-callback-await-state-sync
+npm install use-callback-await-state-sync
 ```
 
 Or with yarn:
 
 ```shell
-yarn add @scottbamford/use-callback-await-state-sync
+yarn add use-callback-await-state-sync
 ```
 
 ## Basic Usage
@@ -26,7 +26,7 @@ Because the callback waits until after state is synchronised before executing it
 ### Typescript
 ```ts
 import * as React from 'react';
-import { useCallbackAwaitStateSync } from '@scottbamford/use-callback-await-state-sync';
+import { useCallbackAwaitStateSync } from 'use-callback-await-state-sync';
 
 export const MyComponent = () => {
     const [someStateThatMatters, setSomeStateThatMatters] = React.useState<string>('');
@@ -46,7 +46,7 @@ export const MyComponent = () => {
 ### Javascript
 ```js
 import * as React from 'react';
-import { useCallbackAwaitStateSync } from '@scottbamford/use-callback-await-state-sync';
+import { useCallbackAwaitStateSync } from 'use-callback-await-state-sync';
 
 export const MyComponent = () => {
     const [someStateThatMatters, setSomeStateThatMatters] = React.useState('');
