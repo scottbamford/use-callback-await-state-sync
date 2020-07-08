@@ -1,6 +1,6 @@
 {
-  "name": "@scottbamford/usecallbackawaitstatesync",
-  "version": "1.0.0",
+  "name": "@scottbamford/use-callback-await-state-sync",
+  "version": "1.1.0",
   "description": "Returns a callback that will not execute right away when called, but will instead execute next time all the state has been synchronised.",
   "main": "dist/lib/commonjs/index.js",
   "module": "dist/lib/esm/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scottbamford/useCallbackAwaitStateSync.git"
+    "url": "git+https://github.com/scottbamford/use-callback-await-state-sync.git"
   },
   "keywords": [
     "typescript",
@@ -26,9 +26,9 @@
     "access": "public"
   },
   "bugs": {
-    "url": "https://github.com/scottbamford/useCallbackAwaitStateSync/issues"
+    "url": "https://github.com/scottbamford/use-callback-await-state-sync/issues"
   },
-  "homepage": "https://github.com/scottbamford/useCallbackAwaitStateSync/#readme",
+  "homepage": "https://github.com/scottbamford/use-callback-await-state-sync/#readme",
   "scripts": {
     "clean": "rimraf dist",
     "build": "tsc && tsc -m esnext --outDir ./dist/lib/esm"

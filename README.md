@@ -1,20 +1,20 @@
-# useCallbackAwaitStateSync
+# use-callback-await-state-sync
 Returns a callback that will not execute right away when called, but will instead execute next time all the state has been synchronised.
 
 This is useful to invoke when you make a series of state changes that you want to know are applied before calling an existing callback or block of code.
 
 ## Installation
 
-Install useCallbackAwaitStateSync locally within your project folder, like so:
+Install use-callback-await-state-sync locally within your project folder, like so:
 
 ```shell
-npm install @scottbamford/useCallbackAwaitStateSync
+npm install @scottbamford/use-callback-await-state-sync
 ```
 
 Or with yarn:
 
 ```shell
-yarn add @scottbamford/useCallbackAwaitStateSync
+yarn add @scottbamford/use-callback-await-state-sync
 ```
 
 ## Basic Usage
@@ -26,7 +26,7 @@ Because the callback waits until after state is synchronised before executing it
 ### Typescript
 ```ts
 import * as React from 'react';
-import { useCallbackAwaitStateSync } from '@scottbamford/usecallbackawaitstatesync';
+import { useCallbackAwaitStateSync } from '@scottbamford/use-callback-await-state-sync';
 
 export const MyComponent = () => {
     const [someStateThatMatters, setSomeStateThatMatters] = React.useState<string>('');
@@ -46,7 +46,7 @@ export const MyComponent = () => {
 ### Javascript
 ```js
 import * as React from 'react';
-import { useCallbackAwaitStateSync } from '@scottbamford/usecallbackawaitstatesync';
+import { useCallbackAwaitStateSync } from '@scottbamford/use-callback-await-state-sync';
 
 export const MyComponent = () => {
     const [someStateThatMatters, setSomeStateThatMatters] = React.useState('');
